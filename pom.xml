@@ -10,7 +10,7 @@
   </parent>
 
   <modelVersion>4.0.0</modelVersion>
-  <groupId>nl.big-o</groupId>
+  <groupId>ryfow</groupId>
   <artifactId>liqp</artifactId>
   <packaging>jar</packaging>
   <version>0.6.1</version>
