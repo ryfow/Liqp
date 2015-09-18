@@ -20,11 +20,19 @@
   <inceptionYear>2012</inceptionYear>
 
   <scm>
-    <url>https://github.com/bkiers/Liqp</url>
-    <connection>scm:git:git://github.com/bkiers/Liqp.git</connection>
-    <developerConnection>scm:git:git@github.com:bkiers/Liqp.git</developerConnection>
+    <url>https://github.com/ryfow/Liqp</url>
+    <connection>scm:git:git://github.com/ryfow/Liqp.git</connection>
+    <developerConnection>scm:git:git@github.com:ryfow/Liqp.git</developerConnection>
     <tag>1.0.0</tag>
   </scm>
+
+  <distributionManagement>
+    <repository>
+      <id>clojars</id>
+      <name>Clojars repository</name>
+      <url>https://clojars.org/repo</url>
+    </repository>
+  </distributionManagement>
 
   <developers>
     <developer>
@@ -33,6 +41,15 @@
       <id>bart</id>
       <url>http://big-o.nl</url>
       <timezone>+1</timezone>
+      <roles>
+        <role>developer</role>
+      </roles>
+    </developer>
+        <developer>
+      <name>Ryan Fowler</name>
+      <email>rwfowler@gmail.com</email>
+      <id>ryfow</id>
+      <url>http://github.com/ryfow</url>
       <roles>
         <role>developer</role>
       </roles>
